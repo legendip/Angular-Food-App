@@ -12,6 +12,8 @@ import { RestaurantComponent } from './restaurant/restaurant.component';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { UserSignupComponent } from './user-signup/user-signup.component';
 import { RestaurantCardComponent } from './restaurant-card/restaurant-card.component';
+import { FoodComponent } from './food/food.component';
+import { FoodCardComponent } from './food-card/food-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { RestaurantCardComponent } from './restaurant-card/restaurant-card.compo
     RestaurantComponent,
     UserLoginComponent,
     UserSignupComponent,
-    RestaurantCardComponent
+    RestaurantCardComponent,
+    FoodComponent,
+    FoodCardComponent
   ],
   imports: [
     BrowserModule,
